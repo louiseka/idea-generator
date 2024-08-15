@@ -8,25 +8,30 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: #FAF9F6;
     color: #110B11;
+}
+
+body,
+h2,
+p {
     margin: 0
 }
 
 h1 {
-    margin: 60px 0 0 0;
-    font-size: 28px;
+    margin: 2.15em 0 0 0;
+    font-size: 1.75rem;
+    /* 28px */
     padding: 0 0 15px 0;
 }
 
 h2 {
-    margin: 0;
-    padding: 0 0 5px 0;
+    padding: 0 0 0.28em 0;
     font-weight: 500;
-    font-size: 18px;
+    /* 18px */
+    font-size: 1.125rem;
 }
 
 p {
-    margin: 0;
-    padding: 0 0 10px 0;
+    padding: 0 0 0.625em 0;
 }
 
 .main-container {
@@ -34,13 +39,13 @@ p {
     margin: 0 auto;
 }
 
-.idea-container {
-    display: none;
-}
-
 .idea-container,
 .generator-desc {
     height: 120px;
+}
+
+.idea-container {
+    display: none;
 }
 
 .generator-desc {
@@ -50,20 +55,21 @@ p {
 .text-container {
     display: flex;
     flex-direction: column;
-    margin: 5px 15px;
+    margin: 0.30em 0.95em;
 }
 
 button {
     background-color: #A5D0A8;
     color: #110B11;
     font-weight: 500;
-    padding: 15px 20px;
     cursor: pointer;
     border: 0;
     border-radius: 6px;
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    margin: 5px 15px;
+    font-size: 1.125rem;
+    /* 18px */
+    margin: 0.28em 0.85em;
+    padding: 0.85em 1em;
 }
 
 button:hover,
