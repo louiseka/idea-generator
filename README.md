@@ -1,15 +1,44 @@
-# BoredBot
+# BoredBot 🤖
 
-## Description
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### What is BoredBot? 
+## Live Project
+🌐 **Live Site:** https://louiseka.github.io/idea-generator/
 
-BoredBot is an idea generator using the 'Bored API'. Click the button to generate a random idea. Don't like the idea? Just keep clicking until you find one you love!
+## What is BoredBot?
+**BoredBot** is a fun idea generator powered by the **Bored API**.  
+Click the button to generate a random activity idea. Don’t like the suggestion? Simply keep clicking until you find one you love!
 
-### Technologies Used
+This project focuses on working with external APIs and dynamic DOM updates using JavaScript.
 
-I have used JavaScript, so I can:
+## Features
+- Generate random activity ideas
+- Fetch data from an external API
+- Update content dynamically without page reload
+- Simple, interactive user interface
 
-- I can use event listeners to respond to button clicks.
-- I can efficiently use fetch() to retrieve data from the Bored API.
-- I can manipulate the DOM to display the generated ideas.
+## Technologies Used
+- **HTML** – Structure and markup
+- **CSS** – Styling and layout
+- **JavaScript** – Logic, API calls, and DOM manipulation
+
+### JavaScript Concepts Practiced
+- Event listeners for user interactions
+- `fetch()` for retrieving data from the Bored API
+- DOM manipulation to display generated ideas
+
+## Getting Started
+To run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/boredbot.git
+
+# Navigate into the project directory
+cd boredbot
+
+# Open the project
+open index.html
+``
