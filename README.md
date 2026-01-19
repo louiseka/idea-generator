@@ -34,10 +34,10 @@ To run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/boredbot.git
+git clone https://github.com/yourusername/idea-generator.git
 
 # Navigate into the project directory
-cd boredbot
+cd idea-generator
 
 # Open the project
 open index.html
